@@ -1,0 +1,7 @@
+@charset "Shift_JIS";
+
+@import "base.css";
+
+@media tty {
+ i{content:"\";/*" "*/}} @import 'ie5win.css'; /*";}
+}/* */

@@ -1,0 +1,222 @@
+@charset "Shift_JIS";
+
+/* 全体構造
+---------------------------------------------------- */
+body {
+  margin: 0;
+  padding: 0;
+  color: #333333;
+  background: #e5e5dd url(../images/back.jpg) repeat-y;
+}
+#wrapper {
+  width: 777px;
+  color: #333333;
+  background: url(../images/back-body.jpg) repeat-y;
+}
+
+/* リンク
+---------------------------------------------------- */
+a:link {
+  color: #3366ff;
+  background: transparent;
+}
+a:visited {
+  color: #800080;
+  background: transparent;
+}
+a:hover, a:active {
+  color: #ff9933;
+  background: transparent;
+}
+
+/* ヘッダ
+---------------------------------------------------- */
+#header {
+  padding-top: 31px;
+  color: #999999;
+  background: url(../images/back-header.jpg) no-repeat;
+}
+h1 {
+  margin: 0;
+  float: left;
+  width: 248px;
+  font-size: small;
+}
+h1 img {
+  vertical-align: bottom;
+}
+#header ul {
+  margin: 0;
+  padding: 10px 39px 0 0;
+  float: right;
+  width: 490px;
+  list-style: none;
+  text-align: right;
+  line-height: 1.0;			/* ■この指定が無いとブラウザ毎に縦位置が変る */
+}
+#header li {
+  display: inline;
+  padding-left: 1em;
+  text-transform: uppercase;
+  font-size: x-small;
+}
+
+/* ページ本体
+---------------------------------------------------- */
+#pagebody {
+  clear: both;
+  position: relative;
+  width: 877px;			/* ■IE用バグ対策 */
+  padding-top: 10px;
+}
+
+/* コンテンツ
+---------------------------------------------------- */
+#content {
+  padding: 1px 0 1.2em;
+  margin-left: 258px;
+  border-bottom: 1px solid #cccccc;
+  width: 484px;
+  color: #333333;
+  background: url(../images/coer.jpg) no-repeat;
+}
+#content h2 {
+  font-size: small;
+  color: #ff9933;
+  background: transparent;
+}
+#content li {
+  font-size: small;
+}
+
+/* ナビゲーション
+---------------------------------------------------- */
+#navigation {
+  position: absolute;
+  top: 12px;
+  left: 10px;
+  width: 236px;
+  border-top: 15px solid #000000;
+}
+#navigation ul {
+  margin: 0 0 1em;
+  padding: 0;
+  border-top: 1px solid #cccccc;
+  border-bottom: 1px solid #cccccc;
+  list-style: none;
+}
+#navigation li {
+  margin: 0;
+  padding: 0;
+  width: 236px;
+  height: 43px;
+  text-indent: -9999px;
+}
+#navigation li a {
+  text-decoration: none;		/* ■Firefox等で線が表示されないようにする */
+  display: block;
+  width: 236px;
+  height: 43px;
+}
+
+#navigation li#top      {
+  background: url(../images/topoff.gif) no-repeat;
+}
+
+#navigation li#fps    {
+  background: url(../images/fpsoff.gif) no-repeat;
+}
+
+#navigation li#tps  {
+  background: url(../images/tpsoff.gif) no-repeat;
+}
+
+#navigation li#rts {
+  background: url(../images/rtsoff.gif) no-repeat;
+}
+
+#navigation li#other      {
+  background: url(../images/otheroff.gif) no-repeat;
+}
+
+#navigation li#jiko      {
+  background: url(../images/jikooff.gif) no-repeat;
+}
+
+/* マウスオーバー時の指定
+---------------------------------------------------- */
+#navigation li#top  a:hover    {
+  background: url(../images/tpon.gif) no-repeat;
+}
+#navigation li#fps  a:hover    {
+  background: url(../images/fpson.gif) no-repeat;
+}
+#navigation li#tps  a:hover    {
+  background: url(../images/tpson.gif) no-repeat;
+}
+#navigation li#rts  a:hover    {
+  background: url(../images/rtson.gif) no-repeat;
+}
+#navigation li#other  a:hover    {
+  background: url(../images/otheron.gif) no-repeat;
+}
+#navigation li#jiko  a:hover    {
+  background: url(../images/jikoon.gif) no-repeat;
+}
+
+#navigation address {
+  margin: 0;
+  padding: 1em 0 0 1px;
+  border-top: 1px solid #cccccc;
+  font-style: normal;
+  font-size: xx-small;
+  text-transform: uppercase;
+  line-height: 1.5;
+  color: #999999;
+  background: transparent;
+}
+
+/* フッタ
+---------------------------------------------------- */
+#footer ul {
+  margin: 0;
+  padding-right: 31px;
+  list-style: none;
+}
+#footer li {
+  margin: 9px 0 10px 9px;
+  padding: 0;
+  height: 19px;
+  text-indent: -9999px;
+}
+#footer li a {
+  text-decoration: none;		/* ■Firefox等で線が表示されないようにする */
+  display: block;
+  height: 19px;
+}
+#footer li#info    {
+  float: right;
+  width: 55px;
+  background: url(../images/info.gif) no-repeat;
+}
+#footer li#sitemap {
+  float: right;
+  width: 73px;
+  background: url(../images/sitemap.gif) no-repeat;
+}
+#footer li#privacy {
+  float: right;
+  width: 73px;
+  background: url(../images/privacy.gif) no-repeat;
+}
+#footer p {
+  clear: right;
+  margin: 0;
+  padding: 1em 35px 1em 0;
+  width: 742px;
+  text-align: right;
+  text-transform: uppercase;
+  font-size: x-small;
+  color: #ffffff;
+  background: url(../images/back.jpg) repeat-y;
+}

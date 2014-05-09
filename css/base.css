@@ -139,6 +139,10 @@ h1 img {
   background: url(../images/otheroff.gif) no-repeat;
 }
 
+#navigation li#movie      {
+  background: url(../images/eigaoff.gif) no-repeat;
+}
+
 #navigation li#jiko      {
   background: url(../images/jikooff.gif) no-repeat;
 }
@@ -159,6 +163,10 @@ h1 img {
 }
 #navigation li#other  a:hover    {
   background: url(../images/otheron.gif) no-repeat;
+}
+
+#navigation li#movie  a:hover    {
+  background: url(../images/eigaon.gif) no-repeat;
 }
 #navigation li#jiko  a:hover    {
   background: url(../images/jikoon.gif) no-repeat;

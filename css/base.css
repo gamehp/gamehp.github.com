@@ -9,7 +9,7 @@ body {
   background: #e5e5dd url(../images/back.jpg) repeat-y;
 }
 #wrapper {
-  width: 777px;
+  width: 1200px;
   color: #333333;
   background: url(../images/back-body.jpg) repeat-y;
 }
@@ -49,7 +49,7 @@ h1 img {
   margin: 0;
   padding: 10px 39px 0 0;
   float: right;
-  width: 490px;
+  width: 1000px;
   list-style: none;
   text-align: right;
   line-height: 1.0;			/* ■この指定が無いとブラウザ毎に縦位置が変る */
@@ -66,7 +66,7 @@ h1 img {
 #pagebody {
   clear: both;
   position: relative;
-  width: 877px;			/* ■IE用バグ対策 */
+  width: 1200px;			/* ■IE用バグ対策 */
   padding-top: 10px;
 }
 
@@ -76,7 +76,7 @@ h1 img {
   padding: 1px 0 1.2em;
   margin-left: 258px;
   border-bottom: 1px solid #cccccc;
-  width: 484px;
+  width: 800px;
   color: #333333;
   background: url(../images/coer.jpg) no-repeat;
 }
@@ -221,7 +221,7 @@ h1 img {
   clear: right;
   margin: 0;
   padding: 1em 35px 1em 0;
-  width: 742px;
+  width: 1000px;
   text-align: right;
   text-transform: uppercase;
   font-size: x-small;

@@ -139,7 +139,7 @@ h1 img {
   background: url(../images/otheroff.gif) no-repeat;
 }
 
-#navigation li#column      {
+#navigation li#column     {
   background: url(../images/columnoff.gif) no-repeat
 
 #navigation li#movie      {
@@ -177,6 +177,7 @@ h1 img {
 #navigation li#jiko  a:hover    {
   background: url(../images/jikoon.gif) no-repeat;
 }
+
 
 #navigation address {
   margin: 0;

@@ -139,6 +139,10 @@ h1 img {
   background: url(../images/otheroff.gif) no-repeat;
 }
 
+#navigation li#c      {
+  background: url(../images/cooff.gif) no-repeat;
+}
+
 #navigation li#movie      {
   background: url(../images/eigaoff.gif) no-repeat;
 }
@@ -164,6 +168,11 @@ h1 img {
 #navigation li#other  a:hover    {
   background: url(../images/otheron.gif) no-repeat;
 }
+
+#navigation li#c  a:hover    {
+  background: url(../images/coon.gif) no-repeat;
+}
+
 
 #navigation li#movie  a:hover    {
   background: url(../images/eigaon.gif) no-repeat;

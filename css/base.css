@@ -168,16 +168,16 @@ h1 img {
   background: url(../images/otheron.gif) no-repeat;
 }
 
-#navigation li#column  a:hover    {
+#navigation li#column  a:hover   {
   background: url(../images/columnon.gif) no-repeat;
 
 #navigation li#movie  a:hover    {
   background: url(../images/eigaon.gif) no-repeat;
 }
+
 #navigation li#jiko  a:hover    {
   background: url(../images/jikoon.gif) no-repeat;
 }
-
 
 #navigation address {
   margin: 0;

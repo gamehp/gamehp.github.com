@@ -140,7 +140,7 @@ h1 img {
 }
 
 #navigation li#column     {
-  background: url(../images/columnoff.gif) no-repeat
+  background: url(../images/cooff.gif) no-repeat
 
 #navigation li#movie      {
   background: url(../images/eigaoff.gif) no-repeat;
@@ -169,7 +169,7 @@ h1 img {
 }
 
 #navigation li#column  a:hover   {
-  background: url(../images/columnon.gif) no-repeat;
+  background: url(../images/coon.gif) no-repeat;
 
 #navigation li#movie  a:hover    {
   background: url(../images/eigaon.gif) no-repeat;
